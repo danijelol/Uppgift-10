@@ -57,7 +57,7 @@ namespace Uppgift_10
             }
             if (gissning == slumptal)
             {
-                MessageBox.Show("Du gissade rätt! Grattis! Det tog dig " + antalgissningar + " försök att gissa rätt");
+                MessageBox.Show("Grattis, du gissade rätt! Det tog dig " + antalgissningar + " försök att gissa rätt.");
                 txtBoxKommentar.Text = "Rätt svar var: " + slumptal;
             }
             else if (gissning != slumptal)
